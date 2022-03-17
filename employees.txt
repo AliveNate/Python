@@ -1,0 +1,8 @@
+Jim - Salesman
+Dwight - Salesman
+Michael - Boss
+Pam - Receptionist
+Stanley - Salesman
+Stanley - Salesman
+Stanley - Salesman
+Stanley - Salesman

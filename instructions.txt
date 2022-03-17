@@ -1,0 +1,10 @@
+
+
+
+We want to be able to use nmap with python.
+Make sure you have pip/pip3
+
+
+	# pip install python-nmap
+
+

@@ -1,0 +1,50 @@
+
+This is for a project with different modules.
+A clothing store sells clothes.
+The store has sections:
+    Men
+    Women
+    Children
+
+The sections (modules) will have different functions/vars for men vs women.
+But all sections will also use the some same functions such as cost+tax
+
+The whole project can create/call on different modules to organize,
+
+
+ecommerce project -->
+    Right click on the current project,
+     create directory = "ecommerce"
+
+In this directory we need to add a a file to help convert it to a full package
+Right click on "ecommerce" module
+    New Python File
+    Name python file:       "__init__"        (2 underscoress)
+    We end of with: __init__.py
+
+This can also be done by when you create the whole project in the first place, create a python package:
+    In Pycharm --> File --> New --> Python Package
+    Named "ecommerce2"
+    This will auto include an   __init__.py file.
+
+In ecommerce2 --> right click --> new python file --> "shipping"
+Create function in "shipping.py"
+    def calc_shipping():    This just prints out message for our learning
+
+Create main area:   app.py
+To import the shipping module, into the app.py
+    import ecommerce2.shipping
+
+In app.py to then call the shipping function:
+    ecommerce2.shipping.calc_shipping()
+
+Now if we run --> app.py --> we wil get the message called from the shipping module.
+BUT
+More efficient than above
+    from ecommerce2.shipping import calc_shipping
+calc_shipping()
+
+EVEN more simple:
+    from ecommerce2 import shipping
+Then everything in shipping.py will come along. Then:
+    shipping.calc_shipping()

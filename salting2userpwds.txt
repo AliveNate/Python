@@ -1,0 +1,8 @@
+admin:passsword
+adminmsf:Password123
+admintmp:admin
+ncterry:GHpzDyyNFUBeU
+roottmp:toor
+rootmsf:password
+root:DLQDYCL4oQLwM
+adminfake:root
