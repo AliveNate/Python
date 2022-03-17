@@ -44,7 +44,6 @@ for word in passfile:
 hash.hexdigest() - the digest is returned as a string object of double length, containing only hexadecimal digits.
 This may be used to exchange the value safely in email or other non-binary environments.
 """
-
     if md5digest == passhash:
         print(colored("[+] Password Found: " + word, 'green'))
         exit(0)
